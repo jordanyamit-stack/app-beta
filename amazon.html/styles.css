@@ -1,0 +1,145 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeded;
+}
+
+header {
+    background-color: #131921;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.profile-img-container {
+    text-align: center;  
+    margin-bottom: 20px;  
+}
+
+.profile-img-file {
+    width: 150px;         
+    height: auto;         
+    display: block;
+    margin: 0 auto;       
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #edebe9;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+/* Contenedor de Login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.login-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 350px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+
+.field {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+}
+
+.btn-amazon {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-amazon:hover {
+    background-color: #e2b02a;
+}
+
+
+.main-container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.product-image {
+    background-color: #f3f3f3;
+    height: 200px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+}
+
+.links {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.links a {
+    color: #0066c0;
+    text-decoration: none;
+}
